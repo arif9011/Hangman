@@ -21,7 +21,7 @@ def check_guess(guess):
             #Enter is in word
      if guess in word :
 
-                print("Good.  {guess} is athe word")
+                print("Good.  {guess} is the word")
                 
      else:
                 print("opps! invalid guess")
