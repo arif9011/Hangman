@@ -2,10 +2,10 @@
            Hangman project in python
 
 Introduction: This is a simple Hangman game using Python programming language in Python.
-## Milestone 1 Task1
+# Milestone 1 Task1
 Q: Set up GitHuband environment for the project?
 Ans: install VS code, learn command line, file manipulation, set up Github account and create Repo hangman.We will use GitHub to track changes our code and save them online in a GitHup repo.
-## Milestone 2 Task1
+# Milestone 2 Task1
 Q: Define the list of possible words?
 Ans:
 Step 1: I have created list containing the name of 5 favourite fruits in python.
@@ -14,14 +14,14 @@ Step3: I did print out the created list to the standard out.
 Code:
  ```python
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
-#assign variable
+# assign variable
 
 print(word_list)
 
 ‘’’
-Screenshot:
+
  
-## Milestone2 Task2
+# Milestone2 Task2
 Q: Choose a random word from the list?
 Ans: I have used random module. The random module is one of python’s built-in modules. It has a choice method which returns a random item from a given sequence.
 Step1: I have created new file in python.
@@ -39,9 +39,8 @@ random.choice
 word=random.choice(word_list)
 print(word)
 ‘’’
-Screenshot:
  
-## Milestone 2 Task3
+# Milestone 2 Task3
 Q:Ask the user for an input?
 Ans:
 Step1: I have used input function for taking input from the user. Ask the user to enter a single letter.
@@ -51,15 +50,15 @@ Code:
 guess=input("Enter a single letter :  ")
 print(guess)
 
-Screenshot:
 
-##Milestone 2 Task 4
+
+# Milestone 2 Task 4
 Q: Check that input is a single character ?
 Ans:  Step1: I have if statement and in the input item is equal to 1 and the input is an alphabet. 
  
 
 
-##Milestone 2 Task4
+# Milestone 2 Task4
 Q: Check that the input is a single character?
 Ans:
 Step1: I have created if statement input guess is equal to 1 and the input is an alphabet.
@@ -70,7 +69,7 @@ Screen shot:
 
 
 
-##Milestone 3 task1
+# Milestone 3 task1
 Q: Iteratively check if the input is valid guess
 Ans:
 Step1: Create a while loop and set condition is true.
@@ -81,7 +80,7 @@ Step5: if the guess does not pass the checks then print “ Invalid letter, ente
 Screen shot:
  
 
-##Milestone 3 task2:
+# Milestone 3 task2:
 Q: Check whether guess is in the word?
 Ans:
 Step1: I have created an if statement for checking if the guess is in the word
@@ -89,7 +88,7 @@ Step2: if the if statement is guess then print “Good  guess! {guess} is in the
 Step3: and I have created else book and print the message “sorry guess is not the word, try again” 
 Screen Shot: 
  
-##Milestone 3 task3
+# Milestone 3 task3
 Q:Create the function to run the checks?		
 Ans: Step1: Define a function called check_guess() and pass a guess as parameter. 
 Step2: Convert the guess into lower case.
@@ -102,8 +101,9 @@ Step4: Outside the function, call the ask_for_input() to test your code.
 
 Screenshot:
  
+![image](https://github.com/arif9011/Hangman/assets/115591569/60d1ef76-1543-44cb-b6d0-4336191b7aa9)
 
-##Milestone 4 task1:
+# Milestone 4 task1:
 Q: Create the Class
 Ans: 
 Step1: I have created game class is name Hangman.
@@ -116,9 +116,10 @@ Step3: Initialisation the attributes
 5.	Word_list: list – A list of words.
 6.	List_of_guesses: list – A list of the guesses that have already been tried and I have set to an empty list initially. 
 Screen Shoot: 
- 
+ ![image](https://github.com/arif9011/Hangman/assets/115591569/f8178fc7-8e3c-4598-af4e-c3fc4d34fc3c)
 
-##Milestone 4 task2:
+
+# Milestone 4 task2:
 Q: Create methods for running check?
 Ans: For check_guess method
 Step1: Defined the method check_guess()
@@ -136,9 +137,11 @@ Finally add append the guess to the list_of_guess.
 
 Step 3: I have called ask_for_input mrthod for test the code.
 Screen Shoot:
+![image](https://github.com/arif9011/Hangman/assets/115591569/90680c85-6821-47bd-9f3c-db627771abd4)
+
     
     
-   ## Milestone 4 task3:
+ # Milestone 4 task3:
 Q: Define what happened if letter is in the word?
 Ans: I have created for loop inside the check_guess method. Then I have created if statement if block, replace the corresponding “-“ in the word_guessed with the guess. I did index the word_guessed at the position of the letter and assign it to the letter. And the outside the for loop , reduce the variable num_letters by 1.
 Milestone 4 task4:
@@ -160,5 +163,7 @@ I have created while loop and set the condition is true. Then in the body of the
 Outside the function, I have called play_game() for playing game. 
 
 Screen Shoot:
+![image](https://github.com/arif9011/Hangman/assets/115591569/f02dcc50-8595-410d-abaf-91c7509b1f1b)
+
  
 
