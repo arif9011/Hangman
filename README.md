@@ -13,7 +13,6 @@ Step 2: I have assigned this list to a variable called word_list.
 Step3: I did print out the created list to the standard out.
 Code:
 ```
-python
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 # assign variable
 
@@ -30,15 +29,15 @@ Step3: I have created random.choice method and passed the word_list variable int
 Step4: I did assign the randomly generated word to a variable called word.
 Step5: Then I did print out  the word to the standard output. And I did run the code several times and I can see word is coming randomly.
 Code:  
- python '''
-
+ 
+```
 importrandom
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 random.choice
 pick a random choice from a list of strings.
 word=random.choice(word_list)
 print(word)
-'''
+```
  
 # Milestone 2 Task3
 Q:Ask the user for an input?
@@ -46,10 +45,10 @@ Ans:
 Step1: I have used input function for taking input from the user. Ask the user to enter a single letter.
 Step2: I did assign the input to variable called guess.
 Code:
-‘’’ python
+``` python
 guess=input("Enter a single letter :  ")
 print(guess)
-'''
+```
 
 
 
