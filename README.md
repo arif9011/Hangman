@@ -30,12 +30,12 @@ Step3: I have created random.choice method and passed the word_list variable int
 Step4: I did assign the randomly generated word to a variable called word.
 Step5: Then I did print out  the word to the standard output. And I did run the code several times and I can see word is coming randomly.
 Code:  
-''' python
+ python '''
 
 importrandom
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 random.choice
-# pick a random choice from a list of strings.
+pick a random choice from a list of strings.
 word=random.choice(word_list)
 print(word)
 '''
