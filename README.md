@@ -12,13 +12,13 @@ Step 1: I have created list containing the name of 5 favourite fruits in python.
 Step 2: I have assigned this list to a variable called word_list.
 Step3: I did print out the created list to the standard out.
 Code:
-'''
+```
 python
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 # assign variable
 
 print(word_list)
-'''
+```
 
  
 # Milestone2 Task2
