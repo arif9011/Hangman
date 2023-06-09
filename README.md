@@ -64,10 +64,6 @@ Ans:
 Step1: I have created if statement input guess is equal to 1 and the input is an alphabet.
 Step2: If the if statement is true then print good guess.
 Step3: if the if statement is not true then else block print opps that is not a valid input.
-Screen shot:
- 
-
-
 
 # Milestone 3 task1
 Q: Iteratively check if the input is valid guess
@@ -86,7 +82,6 @@ Ans:
 Step1: I have created an if statement for checking if the guess is in the word
 Step2: if the if statement is guess then print “Good  guess! {guess} is in the word
 Step3: and I have created else book and print the message “sorry guess is not the word, try again” 
-Screen Shot: 
  
 # Milestone 3 task3
 Q:Create the function to run the checks?		
@@ -99,7 +94,7 @@ Step2: Move that code that wrote into Iteratively check if the input is valid gu
 Step3: Outside the while loop, within this function call the check_guess function to check if the guess is in the word  and pass guess as a argument to the method.
 Step4: Outside the function, call the ask_for_input() to test your code.
 
-Screenshot:
+# Screenshot:
  
 ![image](https://github.com/arif9011/Hangman/assets/115591569/60d1ef76-1543-44cb-b6d0-4336191b7aa9)
 
@@ -136,11 +131,9 @@ In the else block I have called check_guess() method and pass guess as a argumen
 Finally add append the guess to the list_of_guess. 
 
 Step 3: I have called ask_for_input mrthod for test the code.
-Screen Shoot:
+# Screen Shoot:
 ![image](https://github.com/arif9011/Hangman/assets/115591569/90680c85-6821-47bd-9f3c-db627771abd4)
-
-    
-    
+   
  # Milestone 4 task3:
 Q: Define what happened if letter is in the word?
 Ans: I have created for loop inside the check_guess method. Then I have created if statement if block, replace the corresponding “-“ in the word_guessed with the guess. I did index the word_guessed at the position of the letter and assign it to the letter. And the outside the for loop , reduce the variable num_letters by 1.
@@ -162,7 +155,7 @@ I have created while loop and set the condition is true. Then in the body of the
 
 Outside the function, I have called play_game() for playing game. 
 
-Screen Shoot:
+# Screen Shoot:
 ![image](https://github.com/arif9011/Hangman/assets/115591569/f02dcc50-8595-410d-abaf-91c7509b1f1b)
 
  
