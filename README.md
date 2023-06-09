@@ -154,6 +154,9 @@ I have created while loop and set the condition is true. Then in the body of the
 3.	If the ‘num_lives’ is not 0 and the ‘num_letters’ is not greater than 0,that means the user has won the game. Then print”Congratulations, You won the game!”
 
 Outside the function, I have called play_game() for playing game. 
+# Code:
+```
+
 
 # Screen Shoot:
 ![image](https://github.com/arif9011/Hangman/assets/115591569/f02dcc50-8595-410d-abaf-91c7509b1f1b)
