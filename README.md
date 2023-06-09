@@ -12,13 +12,13 @@ Step 1: I have created list containing the name of 5 favourite fruits in python.
 Step 2: I have assigned this list to a variable called word_list.
 Step3: I did print out the created list to the standard out.
 Code:
- ```python
+'''
+python
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 # assign variable
 
 print(word_list)
-
-‘’’
+'''
 
  
 # Milestone2 Task2
@@ -30,7 +30,7 @@ Step3: I have created random.choice method and passed the word_list variable int
 Step4: I did assign the randomly generated word to a variable called word.
 Step5: Then I did print out  the word to the standard output. And I did run the code several times and I can see word is coming randomly.
 Code:  
-```python
+''' python
 
 importrandom
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
@@ -38,7 +38,7 @@ random.choice
 # pick a random choice from a list of strings.
 word=random.choice(word_list)
 print(word)
-‘’’
+'''
  
 # Milestone 2 Task3
 Q:Ask the user for an input?
