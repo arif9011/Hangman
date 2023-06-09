@@ -31,7 +31,7 @@ Step5: Then I did print out  the word to the standard output. And I did run the 
 Code:  
  
 ```
-importrandom
+import random
 word_list=['Apple', 'Banana', 'Orange', 'Strawberry', 'Mango']
 random.choice
 pick a random choice from a list of strings.
