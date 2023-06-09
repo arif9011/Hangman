@@ -1,5 +1,5 @@
-# Hangman
-           Hangman project in python
+# Hangman project in python
+    
 
 Introduction: This is a simple Hangman game using Python programming language in Python.
 # Milestone 1 Task1
